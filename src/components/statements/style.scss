@@ -1,0 +1,84 @@
+.main-table-wrap{
+    width: 80%;
+    padding: 20px;
+}
+.heading-wrap{
+    h2{
+        padding-bottom: 20px;
+        font-size: 28px;
+        font-weight: bold;
+    }
+}
+.view-invoice-btn{
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    border:1px solid #000;
+    &:hover{
+        background-color: #000;
+        color: #fff;
+        cursor: pointer;
+    }
+}
+
+.heading-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    button{
+        background-color: #000;
+        color: #fff;
+        border: 1px solid #000;
+        border-radius: 5px;
+        padding: 5px 10px;
+    }
+}
+.statement-form{
+    padding: 10px 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #a2a2a2;
+    margin-bottom: 20px;
+    width: 100%;
+    form{
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+    .filter-inp-wrap{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        align-self: center;
+        margin: 10px 0px   ;
+        input{
+            width: 100%;
+            border: 1px solid #a2a2a2;
+            border-radius: 5px;
+        }
+        label{
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+    }
+    .search-invoice{
+        align-self: center;
+    }
+    }
+}
+.react-datepicker-popper{
+    z-index: 22222;
+}
+.final-statement{
+    .customer-details{
+        padding: 10px;
+        .top-bar{
+            padding: 20px;
+            border: 1px solid #000;
+            h1{
+                font-weight: 800;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}

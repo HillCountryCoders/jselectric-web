@@ -1,0 +1,91 @@
+.action-wrap{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    span{
+        font-size: 20px;
+        transition: 0.3s ease-in-out;
+        &:hover{
+            cursor: pointer;
+            &:first-child{
+                color: red;
+            }
+            &:last-child{
+                color: blue;
+            }
+        }
+    }
+}
+.tabs-cus-wrap{
+    display: flex;
+    padding:0px 0px 20px 0px;
+    margin-top: 20px;
+    .simpleTab{
+        
+            padding-left: 10px;
+            padding-bottom: 10px;
+&:first-child{
+    padding-left: 0px;
+}        
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .activeTab{
+        border-bottom: 2px solid #1F3F49;
+        font-weight: bold;
+        transition: 0.3s ease-in-out;
+    }
+}
+.red{
+    background-color: red;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto auto;
+    left: 2px;
+    position: absolute;}
+.orange{
+    background-color: orange;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin: auto auto;
+    left: 2px;
+    
+}
+.yellow{
+    background-color: yellow;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin: auto auto;
+    left: 2px;
+}
+.blue{
+    background-color: blue;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin: auto auto;
+    left: 2px;
+}
+.dropdown-div{
+    z-index: 11;
+}
+@page 
+    {
+        size:  auto;   /* auto is the initial value */
+        margin: 0mm;  /* this affects the margin in the printer settings */
+    }

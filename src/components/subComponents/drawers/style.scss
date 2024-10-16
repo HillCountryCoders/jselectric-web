@@ -1,0 +1,398 @@
+
+.add-drawer-inner{
+    width: 90vw;
+    max-width: 992px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    h1{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 18px;
+        font-weight: bold;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+.add-drawer-inner{
+
+    form{
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        .input-wrap{
+            width: 33%;
+            margin-right: 15px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            label{
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+            input{
+                padding: 5px 10px;
+                font-size: 16px;
+                border-radius: 5px;
+                border:1px solid #a2a2a2
+            }
+            p{
+                line-height: normal;
+                margin-bottom: 10px;
+            }
+        }
+        .submit-btn-wrap{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            input{
+                align-self: flex-start;
+                font-size: 16px;
+                padding: 5px 10px;
+                background-color: black;
+                color: #fff;
+                border: 1px solid #000;
+                border-radius: 5px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+.innerDrawerCon{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+        form{
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            .input-wrap{
+                width: 40%;
+                display: flex;
+                flex-direction: column;
+                margin: 5px;
+                    label{
+                        margin-bottom: 10px;
+                        margin-top: 10px;
+                        font-weight: 600;
+                    }
+                    .input-cus{
+                        padding: 5px;
+                        font-size: 16px;
+                        border-radius: 5px;
+                        border: 1px solid #cfcfcf;
+                        &:focus{
+                            outline: none;
+                        }
+                    }
+                    input{
+                        padding: 9px;
+                        font-size: 16px;
+                        border-radius: 5px;
+                        border: 1px solid #cfcfcf;
+                    }
+                }
+                .sub-btn-wrap{
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: flex-start;
+                    width: 100%;
+                    .addEmp{
+                        background: #000;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #000;
+        transition: 0.3s ease-in-out;
+        border-radius: 10px;
+        color: #fff;
+            &:hover{
+                background-color: #fff;
+                color: #000;
+            }
+    
+                    }
+                }
+        }
+}
+.info-modal{
+    width: 90vw;
+    padding: 20px;
+    .close{
+        text-align: right;
+        font-weight: 100;
+        font-size: 32px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+        .employeeInfo{
+            display: flex;
+            flex-wrap: wrap;
+                .singleInfo{
+                    display: flex;
+                    flex-direction: column;
+                    width: fit-content;
+                    padding: 20px;
+                    img{
+                        width: 30%;
+                    }
+                        label{
+                            display: inline-block;
+                            font-weight: 600;
+                            padding-bottom: 10px;
+                        }
+                        p{
+                            font-weight: 300;
+                        }
+                }
+        }
+}
+.tabs-wrap{
+    padding: 20px;
+        .tabs{
+            display: flex;
+            justify-content: flex-start;
+                li{
+                    margin: 5px 10px;
+                    padding: 5px 10px;
+                    border: 1px solid #1F3F49;
+                    background-color: #fff;
+                    border-radius: 5px;
+                    color: #1F3F49;
+                    transition: 0.3s ease-in-out;
+                    &:hover{
+                        background-color: #1F3F49;
+                        color: #fff;
+                        cursor: pointer;
+                    }
+                }
+                .activeTab{
+                    background-color: #1F3F49;
+                        color: #fff;
+                }
+        }
+}
+.innerTabsWrap{
+    padding: 20px 30px;
+}
+.badgeInfo-data{
+    display: flex;
+    flex-wrap: wrap;
+        .single-item{
+            width: 250px;
+            padding-bottom: 20px;
+            label{
+                display: inline-block;
+                padding-bottom: 10px;
+                font-weight: 600;
+            }
+        }
+}
+.clientDrawer{
+    .MuiPaper-root{
+        width: 90vw;
+        .innerDrawerCon{
+            width: 100%;
+            form{
+                width: 90%;
+                display: flex;
+                flex-wrap: wrap;
+                    .input-wrap{
+                        width: 30%;
+                    }
+            }
+        }
+    }
+}
+.close-modal{
+    text-align: right;
+    font-size: 22px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.data-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px #cfcfcf;
+    border-radius: 10px;
+    padding: 10px;
+    div{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        label{
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+}
+.employeeDrawer{
+    .MuiPaper-root{
+        width: 100%;
+    }
+}
+.rainbow-time-picker_input-container{
+    label{
+        align-self: flex-start;
+    }
+}
+.btn-add{
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    border:1px solid #000;
+    align-self: center;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.minus{
+    &:hover{
+        cursor: pointer;
+    }
+}
+#example-select-5{
+    z-index: 11;
+}
+#example-select-4{
+    z-index: 12;
+}
+#example-select-3{
+    z-index: 13;
+}
+#example-select-2{
+    z-index: 15;
+}
+#example-select-1{
+    z-index: 16;
+}
+.cus-labor-btn{
+    background: #000;
+    width: fit-content;
+    color: #fff;
+    align-self: flex-start;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    &:hover{
+        cursor: pointer;
+    }
+}
+#job-select-1{
+    z-index: 35;
+}
+#job-select-2{
+    z-index: 34;
+}
+#job-select-3{
+    z-index: 33;
+}
+#job-select-4{
+    z-index: 32;
+}
+#job-select-5{
+    z-index: 31;
+}
+#tool-select-1{
+    z-index: 35;
+}
+#tool-select-2{
+    z-index: 34;
+}
+#tool-select-3{
+    z-index: 33;
+}
+#tool-select-4{
+    z-index: 32;
+}
+#tool-select-5{
+    z-index: 31;
+}
+.react-datepicker-popper {
+    z-index: 40 !important;
+}
+#tool-track-select-1{
+    z-index: 22;
+}
+#tool-track-select-2{
+    z-index: 21;
+}
+#tool-track-select-3{
+    z-index: 20;
+}
+
+#ser-ticket-7{
+    z-index: 20; 
+}
+#ser-ticket-6{
+    z-index: 21; 
+}
+#ser-ticket-5{
+    z-index: 22; 
+}
+#ser-ticket-4{
+    z-index: 23; 
+}
+#ser-ticket-3{
+    z-index: 24; 
+}
+#ser-ticket-2{
+    z-index: 25; 
+}
+#ser-ticket-1{
+    z-index: 26; 
+}
+#task-id-cus-13{
+    z-index: 26;
+}
+#task-id-cus-12{
+    z-index: 27;
+}
+#task-id-cus-11{
+    z-index: 28;
+}
+#task-id-cus-10{
+    z-index: 29;
+}
+#task-id-cus-9{
+    z-index: 30;
+}
+#task-id-cus-8{
+    z-index: 31;
+}
+#task-id-cus-7{
+    z-index: 32;
+}
+#task-id-cus-6{
+    z-index: 33;
+}
+#task-id-cus-5{
+    z-index: 34;
+}
+#task-id-cus-4{
+    z-index: 35;
+}
+#task-id-cus-3{
+    z-index: 36;
+}
+#task-id-cus-2{
+    z-index: 37;
+}
+#task-id-cus-1{
+    z-index: 38;
+}

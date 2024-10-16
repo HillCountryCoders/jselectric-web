@@ -1,0 +1,48 @@
+.main-table-wrap{
+    width: 100%;
+    padding: 20px;
+}
+.heading-wrap{
+    h2{
+        padding-bottom: 20px;
+        font-size: 28px;
+        font-weight: bold;
+    }
+}
+.view-invoice-btn{
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    border:1px solid #000;
+    &:hover{
+        background-color: #000;
+        color: #fff;
+        cursor: pointer;
+    }
+}
+.search-invoice{
+    padding: 5px;
+}
+.add-btn-wrap{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    h2{
+        font-size: 24px;
+        font-weight: 600;
+        align-self: center;
+    }
+        button{
+            background: #1F3F49;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #000;
+            transition: 0.3s ease-in-out;
+            border-radius: 10px;
+            color: #fff;
+                &:hover{
+                    background-color: #fff;
+                    color: #000;
+                }
+        }
+}

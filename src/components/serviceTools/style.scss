@@ -1,0 +1,261 @@
+@mixin for-device-morethan-2000{
+    @media screen and (min-width:2000px) and (max-width:4000px) {
+        @content;
+    }
+}
+.employee-wrap{
+    padding: 20px;
+    width: 80%;
+    @include for-device-morethan-2000{
+        width: 100% !important;
+    }
+}
+.search-opt{
+    width: 265px;
+    margin-bottom: 10px;
+}
+.add-btn-wrap{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    h2{
+        font-size: 24px;
+        font-weight: 600;
+        align-self: center;
+    }
+        button{
+            background: #1F3F49;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #000;
+            transition: 0.3s ease-in-out;
+            border-radius: 10px;
+            color: #fff;
+                &:hover{
+                    background-color: #fff;
+                    color: #000;
+                }
+        }
+}
+.swal2-container{
+    z-index: 2222;
+}
+.parts-form{
+    display: flex;
+    flex-wrap: wrap;
+        .input-wrap{
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            margin: 10px;
+            justify-content: flex-end;
+                label{
+                    font-weight: bold;
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                }
+                .input{
+                    padding: 5px;
+                    border:1px solid #a2a2a2;
+                    border-radius: 5px;
+                }
+                .sub-Btn{
+                    background-color: #1F3F49;
+                    color: #fff;
+                    border-radius: 5px;
+                    border:1px solid #1F3F49;
+                    transition: 0.3s ease-in-out;
+                    font-size: 16px;
+                        &:hover{
+                            background-color: #fff;
+                            color: #1F3F49;
+                            
+                        }
+                }
+        }
+}
+.file-form{
+    display: flex;
+        .input-wrap{
+            display: flex;
+            flex-direction: column;
+            margin-right: 20px;
+                label{
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
+                input{
+                    border: 1px solid #a2a2a2;
+                    border-radius: 5px;
+                    font-size: 16px;
+                }
+        }
+        .btn-wrap{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            .submit-btn{
+                background-color: #1F3F49;
+                color: #fff;
+                border-radius: 5px;
+                border:1px solid #1F3F49;
+                transition: 0.3s ease-in-out;
+                font-size: 16px;
+                    &:hover{
+                        background-color: #fff;
+                        color: #1F3F49;
+                        
+                    }
+            }
+        }
+}
+.row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    .single-item{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        label{
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+    }
+    .attach-wrap{
+        width: 80%;
+        display: flex;
+        margin-right: 20px;
+        flex-direction: column;
+        position: relative;
+        button{
+            align-self: flex-start;
+            background-color: #1F3F49;
+            border:1px solid #1F3F49;
+            color: #fff;
+            font-size: 16px;
+        }
+        label{
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .thumbmail-wrap{
+            display: flex;
+            margin-top: 15px;
+        }
+    }
+
+}
+.picModal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        .inner-wrap{
+            padding: 20px;
+            background-color: #fff;
+            width: 90vw;
+            display: flex;
+            .image-wrap{
+                width: 150px;
+                margin-left: 10px;
+                img{
+                    width:150px;
+                    height: 150px;
+                }
+            }
+        }
+}
+.outer-wrap{
+    background-color: #fff;
+    padding: 30px 20px;
+    h1{
+        font-weight: 700;
+        margin-bottom: 25px;
+
+    }
+    p{
+        font-size: 20px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+.row-history{
+    background-color: antiquewhite;
+    display: flex;
+    margin-bottom: 20px;
+            border-radius: 10px;
+            padding: 10px;
+            
+    flex-wrap: wrap;
+        .single-item{
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            margin-right: 20px;
+            label{
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+        }
+}
+
+.active-links-wrap{
+    display: flex;
+    .link{
+        margin-right: 10px;
+        padding-bottom: 5px;
+        font-size: 18px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .active{
+        margin-right: 10px;
+        padding-bottom: 5px;
+        border-bottom: 2px solid #000;
+        font-weight: 600;
+        font-size: 16px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+.generate-btn-wrap{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    button{
+        background-color: #000;
+        color: #fff;
+        border: 1px solid #000;
+        padding: 10px 10px;
+        border-radius: 5px;
+    }
+}
+.tools-wrap-upper{
+    width: 70%;
+    min-width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+#tools-filter-cus{
+    z-index: 35;
+}
+.tool-track-act-btn-wrap{
+    display:flex;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+.yellow-dot{
+    background-color:rgba(234, 239, 44,0.4);
+}
+.green{
+    background-color:rgba(44, 239, 80, 0.4);
+}
+.red-dot{
+    background-color:rgba(239, 44, 44, 0.4);
+}

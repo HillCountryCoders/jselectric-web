@@ -1,0 +1,289 @@
+.modal-inner{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    overflow-y: scroll;
+    .main-wrap{
+        padding: 20px;
+    }
+}
+.schedule-wrap{
+    form{
+        padding: 20px;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+            .input-wrap{
+                width: 15%;
+                display: flex;
+                flex-direction: column;
+                margin: 5px 10px 5px 0px;
+                label{
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                }
+                input{
+                    padding: 9px;
+                    font-size: 16px;
+                    border-radius: 5px;
+                    border:1px solid #cfcfcf
+                }
+                
+            }
+            .sub-btn-wrap{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                input{
+                    margin-top: 15px;
+                    padding: 5px 10px;
+                    background-color: black;
+                    border-radius: 5px;
+                    color: #fff;
+                    border:1px solid #000;
+                    font-size: 16px;
+                }
+            }
+    }
+}
+.innerForm{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    .input-wrap{
+        margin: 10px 10px;
+        width: 200px;
+        label{
+            font-weight: bold;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+        p{
+            margin-top: 10px;
+            color: red;
+        }
+    }
+    .sub-btn-wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        input{
+            margin-top: 0px;
+            padding: 5px 10px;
+            background-color: black;
+            border-radius: 5px;
+            color: #fff;
+            border:1px solid #000;
+            font-size: 16px;
+        }
+    }
+}
+.custom-editor-wrap{
+    padding: 20px;
+}
+.css-1nmdiq5-menu{
+    z-index: 22222 !important;
+}
+.sc-fqkvVR{
+    width: 100%;
+    height: 100%;
+}
+.sc-kpDqfm{
+    width: 100% !important;
+    height: 100% !important;
+}
+.toolModal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.modal-tool-wrap{
+    width: 90vw;
+    height: auto;
+    padding: 30px;
+    align-self: center;
+    background-color: #fff;
+    h1{
+        font-weight: bold;
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .close{
+        text-align: right;
+        font-size: 22px;
+        font-weight: bold;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+.row{
+    background-color: antiquewhite;
+    display: flex;
+    margin-bottom: 20px;
+            border-radius: 10px;
+            padding: 10px;
+            
+    flex-wrap: wrap;
+        .single-item{
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            margin-right: 20px;
+            label{
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+        }
+}
+.swal2-container{
+    z-index: 33333333;
+}
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    .notification-btn{
+        background-color: #000;
+        color: #fff;
+        padding: 5px;
+        border-radius: 5px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+.invoice-inner-form{
+    padding: 20px 0px;
+    input{
+        padding: 7px; 
+        border:1px solid #a2a2a2
+    }
+}
+.paymentModal{
+    z-index: 44444 !important;
+}
+.payment-form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .input-wrap{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+            label{
+                margin-bottom: 5px;
+            }
+            input{
+                padding: 5px;
+                border: 1px  solid #a2a2a2;
+                border-radius: 5px;
+            }
+    }
+}
+.btn-wrap-payment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .add-btn{
+        background-color: #000;
+        color: #fff;
+        padding: 5px;
+        border-radius: 5px;
+        margin-top: 15px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+.upper-top-info{
+    display: flex;
+    padding-bottom: 20px;
+    .item-1{
+        padding-right: 20px;
+        h2{
+            font-size: 16px;
+            font-weight: 600;
+            padding-bottom: 5px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    .item-2{
+        h2{
+            font-size: 16px;
+            font-weight: 600;
+            padding-bottom: 5px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+}
+.main-wrapper-service{
+    background-color: #fff !important;
+    padding: 20px !important;
+    height: 90%;
+    overflow-y: scroll;
+}
+.close-service{
+    text-align: right;
+    font-size: 22px;
+    font-weight: 600;
+}
+@page 
+    {
+        size:  auto;   /* auto is the initial value */
+        margin: 0mm;  /* this affects the margin in the printer settings */
+    }
+.modal-heading{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.modal-para{
+    font-size: 16px;
+}
+.input-wrap{
+    input{
+        padding: 10px;
+        border-radius: 5px;
+        border:1px solid #a2a2a2
+    }
+}
+form{
+    .add-btn-wrap{
+        input{
+            background-color: #000;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            border:1px solid #000;
+        }
+    }
+}
+.slide-modal-inner-wrap{
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    .close{
+        margin:20px;
+        text-align: end;
+        font-size: 22px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+.parent-cus-slide{
+    img{
+        width: 300px !important}
+}

@@ -1,0 +1,36 @@
+.links-wrap{
+    ul{
+        list-style: none;
+        padding: 20px;
+        .simpleLink{
+            font-weight: 400;
+            font-size: 16px;
+            padding:10px 0px;
+            border-bottom: 1px solid #000;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        .activeLink{
+            font-weight: bold;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+    p{
+        font-weight: 400;
+            font-size: 16px;
+            padding:10px 0px;
+            border-bottom: 1px solid #000;
+            margin-left: 20px;
+            margin-right: 20px;
+            &:hover{
+                cursor: pointer;
+            }
+    }
+    .inner-links{
+        padding-top: 0px !important;
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,49 @@
+.top-accordion-wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    h1{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    p{
+        font-size: 14px;
+        padding-right: 10px;
+    }
+}
+.acc-desc-wrap{
+    width: 100%;
+    border-top:1px solid #e8e8e8;
+    padding-top: 10px;
+    h1{
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+.carousel{
+    .slide{
+        img{
+            width: 300px !important;
+            height: auto;
+        }
+    }
+}
+.edit-del-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap:10px;
+    padding-left: 10px;
+    border-left: 1px solid #e8e8e8;
+    .edit{
+        font-size: 14px;
+        color: blue;
+    }
+    .delete{
+        font-size: 14px;
+        color: red;
+    }
+}

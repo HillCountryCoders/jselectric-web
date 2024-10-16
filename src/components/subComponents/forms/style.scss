@@ -1,0 +1,95 @@
+.input-wraps{
+    display: flex;
+    flex-wrap: wrap;
+        .single-inp{
+            margin-top: 5px;
+            margin-bottom: 5px;
+            width: 250px;
+            margin-right: 20px;
+                label{
+                    display: block;
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                }
+                select{
+                    border-radius: 5px;
+                }
+                input{
+                    border-radius: 5px;
+                    padding: 7px;
+                    border: 1px solid #a2a2a2;
+                    font-size: 16px;
+                    &:focus{
+                        outline-color: rgb(116, 116, 255);
+                    }
+                }
+                
+                .submit-btn{
+                    background-color: #1F3F49;
+                    color: #fff;
+                    transition: 0.3s ease-in-out;
+                    border: 1px solid #1F3F49;
+                    &:hover{
+                        cursor: pointer;
+                        background-color: #fff;
+                        color: #1F3F49;
+                    }
+                }
+                button{
+                    background: #1F3F49;
+        padding:5px 10px;
+        font-size: 16px;
+        border: 1px solid #000;
+        transition: 0.3s ease-in-out;
+        border-radius: 10px;
+        color: #fff;
+            &:hover{
+                background-color: #fff;
+                color: #000;
+            }
+                }
+        }
+        .sub-btn-wrap{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding-bottom: 10px;
+            align-items: center;
+            .add-task{
+                background-color: #1F3F49;
+                color: #fff;
+                transition: 0.3s ease-in-out;
+                border: 1px solid #1F3F49;
+                &:hover{
+                    cursor: pointer;
+                    background-color: #fff;
+                    color: #1F3F49;
+                }
+            }
+        }
+}
+.clear-value{
+    font-size: 13px;
+    color: red;
+    margin-top: 10px;
+    border-bottom: 1px solid red;
+    width: fit-content;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.select-cus{
+    z-index: 333333;
+}
+.select-cus1{
+    z-index: 333334;
+}
+.select-cus2{
+    z-index: 333333;
+}
+.select-cus3{
+    z-index: 333333;
+}
+.react-datepicker-popper{
+    z-index: 333333 !important;
+}
